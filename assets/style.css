@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eeeeee;
+}
+
+h1,
+h2 {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #eeeeee;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h4 {
+  font-size: 18px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #eeeeee;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+span {
+  display: block;
+  font-family: "Manrope", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.menu-container {
+  max-width: 1195px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.balance {
+  background: #232931;
+  padding: 40px 10px;
+}
+
+.balance-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 505px;
+  margin: 0 auto;
+}
+
+.group-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.group-title img {
+  width: 61px;
+  height: 55px;
+}
+
+.group-data,
+.transactions {
+  max-width: 505px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.group-data img {
+  width: 35px;
+  height: 30px;
+}
+
+.total-wrapper {
+  width: 100%;
+  border: 2px solid #85c1e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.group-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.income-wrapper,
+.expense-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-radius: 4px;
+  margin-top: 15px;
+  width: 50%;
+  color: #eee;
+}
+
+.income-wrapper {
+  margin-right: 15px;
+}
+
+.plus {
+  border: 2px solid #72e8cc;
+}
+
+.minus {
+  border: 2px solid #f1948a;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form label {
+  font-family: "Manrope", sans-serif;
+  display: block;
+  margin-top: 15px;
+  color: #eeeeee;
+}
+
+.form input {
+  padding: 15px 10px;
+  border-radius: 4px;
+  outline: 0;
+  border: 0;
+}
+
+.form input::placeholder {
+  font-family: "Manrope", sans-serif;
+}
+
+.form button {
+  font-family: "Manrope", sans-serif;
+  outline: 0;
+  border: 0;
+  background: #4ecca3;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 15px;
+  color: #eee;
+  padding: 15px 0;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form button:hover {
+  transform: scale(1.1);
+}
+
+.transactions-wrapper {
+  background: #393e46;
+}
+
+.transactions {
+  padding: 40px;
+}
+
+.transactions-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transactions-list-container {
+  width: 100%;
+  margin-top: 40px;
+  overflow-y: scroll;
+  height: 350px;
+}
+
+.transactions-list-container::-webkit-scrollbar-track {
+  background-color: none;
+}
+
+.transactions-list-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.transactions-list-container::-webkit-scrollbar-thumb {
+  background-color: #eeeeee;
+  border-radius: 4px;
+}
+
+.transactions-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.transactions-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  color: #fff;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.transactions-list li + li {
+  margin-top: 10px;
+}
+
+.transactions-list li span {
+  display: block;
+}
+
+.transactions-list li button {
+  border: 0;
+  outline: 0;
+  color: #eee;
+  background: none;
+  cursor: pointer;
+  transition: border 0.3s ease-in;
+}
+
+.transactions-list li button:hover {
+  border-bottom: 2px solid #eee;
+}
+
+footer {
+  background: #4ecca3;
+  text-align: center;
+}
+
+footer p {
+  color: #eee;
+  font-family: "Manrope", sans-serif;
+  padding: 15px 0;
+}

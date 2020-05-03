@@ -1,2 +1,0 @@
-# simpleAppFinance
-Created with CodeSandbox
